@@ -133,3 +133,26 @@ div.box1 p {
   border-style: dotted;
   border-color: burlywood;
 }
+
+.containerf {
+  padding-top: 60px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.flexf {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.f1 {
+  width: 45%;
+  border: 10px burlywood double;
+}
+
+.f1 h3 {
+  text-align: center;
+}
