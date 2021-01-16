@@ -79,4 +79,19 @@ td {
 
 .container {
   padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+#table-contents {
+  text-align: center;
+}
+
+.box1 h1 {
+  text-align: center;
+  font-family: Lobster, Arial, Helvetica, sans-serif;
+}
+
+#title {
+  font-family: Lobster, Arial, Helvetica, sans-serif;
 }
