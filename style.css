@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+.form-container {
+  width: 25%;
+  margin: auto;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropdown-label {
+  display: block;
+}
+
+button {
+  border-radius: 5px;
+  color: white;
+  background-color: #0f5897;
+  padding: 5px 10px;
+  width: 100%;
+}
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes background-color {
+  100% {
+    background-color: #4791d0;
+  }
+}

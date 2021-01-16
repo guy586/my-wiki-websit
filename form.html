@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Guy's "GetToKnowYou" Form</h1>
+        <p id="description">Thank you for taking the time to help me get to know you better</p>
+        <br>
+        <br>
+        <div class="form-container">
+          <form id="survey-form">
+            <!-- Enter your name -->
+            <div>
+              <label for="name" id="name-label">Name:</label>
+              <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <br>
+            <!-- Enter your email -->
+            <div>
+              <label for="email" id="email-label">Email:</label>
+              <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <br>
+             <!-- Enter your age -->
+            <div>
+              <label for="number" id="number-label">Age:</label>
+              <input type="number" id="number" min="15" max="99" placeholder="Age">
+            </div>
+            <br>
+            <!-- Select personality description -->
+            <div>
+              <label for="dropdown" id="dropdown-label">Which option best describes your personality?</label>
+              <select id="dropdown">
+                <option disabled selected value>Select personality description</option>
+                <option value="morning">Morning person</option>
+                <option value="night">Night person</option>
+              </select>
+            </div>
+            <!-- Select preferred season -->
+            <p>Which season do you prefer?</p>
+            <div>
+              <input type="radio" name="season-preferation" id="summer" value="summer">
+              <label for="summer">Summer</label>
+            </div>
+            <div>
+              <input type="radio" name="season-preferation" id="winter" value="winter">
+              <label for="winter">Winter</label>
+            </div>
+            <!-- Select favorite hobbies -->
+            <p>What is your favorite hobbies?</p>
+            <div>
+              <input type="checkbox" value="hiking" id="favHiking">
+              <label for="favHiking">Hiking</label>
+            </div>
+            <div>
+              <input type="checkbox" value="playing-guitar" id="favPlaying">
+              <label for="favPlaying">Playing guitar</label>
+            </div>
+            <div>
+              <input type="checkbox" value="swimming" id="favSwimming">
+              <label for="favSwim">Swimming</label>
+            </div>
+            <div>
+              <input type="checkbox" value="study" id="favStudy">
+              <label for="favStudy">Study</label>
+            </div>
+            <!-- Add more info about yourself -->
+            <p>Is there more info about yourself that you would like to share?</p>
+            <textarea rows="10" cols="60">  
+            </textarea>
+            <br>
+            <br>
+            <!-- Submit button -->
+            <div>
+              <button type="submit" id="submit">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
