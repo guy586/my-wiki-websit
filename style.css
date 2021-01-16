@@ -8,7 +8,7 @@ body {
   background: url("images/reka.png");
 }
 
-li {
+#navbar ul li {
   display: inline-block;
   padding-right: 25px;
 }
@@ -69,4 +69,14 @@ footer {
   padding: 3px;
   background-color: BurlyWood;
   color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.container {
+  padding-top: 60px;
 }
