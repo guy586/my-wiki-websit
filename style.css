@@ -16,6 +16,7 @@ body {
 #navbar {
   position: fixed;
   background-color: BurlyWood;
+  width: 100%;
 }
 
 #navbar ul li a.active-page {
@@ -146,6 +147,7 @@ div.box1 p {
   width: 75%;
   margin: auto;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .f1 {
