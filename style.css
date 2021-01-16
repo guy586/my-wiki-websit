@@ -1,5 +1,5 @@
 :root {
-  --form-color: white;
+  --form-color: burlywood;
   --button-color: #0f5897;
   --animation-color: #4791d0;
 }
@@ -35,7 +35,7 @@ form {
   width: 25%;
   margin: auto;
   padding: 10px;
-  border-style: solid;
+  border-style: dotted;
   background-color: var(--form-color);
 }
 
