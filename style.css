@@ -85,6 +85,8 @@ td {
 
 #table-contents {
   text-align: center;
+  width: 20%;
+  margin: auto;
 }
 
 .box1 h1 {
@@ -98,4 +100,36 @@ td {
 
 .black {
   color: black;
+}
+
+div.box1 p {
+  width: 60%;
+  margin: auto;
+}
+
+.container2 {
+  padding-top: 60px;
+  width: 50%;
+  margin: auto;
+}
+
+.mflex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mpage-title {
+  font-family: Lobster, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.toptitle {
+  font-family: Lobster, Arial, Helvetica, sans-serif;
+}
+
+.movie {
+  padding-bottom: 75px;
+  border-style: dotted;
+  border-color: burlywood;
 }
